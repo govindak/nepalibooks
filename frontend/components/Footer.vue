@@ -1,28 +1,24 @@
 <template>
 <div class="flex justify-between m-6">
-  <p class="text-xs font-semibold text-gray-600">Strapi Starter Nuxt.js E-commerce</p>
+  <p class="text-xs font-semibold text-gray-600">Nepali Books: Nepal's biggest library of Nepali Books.</p>
   <div class="flex">
-    <a href="https://twitter.com/strapijs" class="max-w-xs ml-4">
+    <a href="https://twitter.com/nepalibooks" class="max-w-xs ml-4">
       <Twitter />
     </a>
-    <a href="https://facebook.com/strapijs" class="ml-3">
+    <a href="https://facebook.com/nepalibooks" class="ml-3">
       <Facebook />
     </a>
-    <a href="https://github.com/strapi/strapi-starter-nuxt-e-commerce" class="ml-3">
-      <Github />
-    </a>
+   
   </div>
 </div>
 </template>
 <script>
 import Twitter from "~/components/icons/twitter.vue";
-import Github from "~/components/icons/github.vue";
 import Facebook from "~/components/icons/facebook.vue";
 
 export default {
   components: {
     Twitter,
-    Github,
     Facebook
   }
 }
